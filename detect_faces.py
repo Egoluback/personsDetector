@@ -12,7 +12,7 @@ ap.add_argument('-c', '--confidence', type=float, default=0.5, help = 'min prob 
 
 args = vars(ap.parse_args())
 
-bot = telebot.TeleBot("1097148122:AAHNX9mqlQ45jRR35--9kE1-qBC4XDpOO9Q")
+bot = telebot.TeleBot("YOUR-TOKEN")
 
 CHAT_ID = 426085120
 
